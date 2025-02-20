@@ -146,7 +146,7 @@ app.use(express.json({ limit: '50mb' }));
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "https://lms4-q82npnle3-subs-projects-2c8f37ee.vercel.app", // ✅ Remove trailing slash
+    origin: "https://lms4-kappa.vercel.app", // ✅ Remove trailing slash
     credentials: true, // ✅ Allow cookies & authentication headers
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // ✅ Explicitly allow required methods
     allowedHeaders: ["Content-Type", "Authorization"], // ✅ Allow necessary headers
