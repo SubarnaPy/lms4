@@ -149,7 +149,7 @@ const Navbar = () => {
 
         <div className="flex flex-col p-4 space-y-4">
           <button onClick={() => { handleHomeClick(); toggleSidebar(); }} className="p-2 text-white rounded hover:bg-blue-400">Home</button>
-          <button onClick={() => { handleCoursesClick(); toggleSidebar(); }} className="p-2 text-white rounded hover:bg-blue-400">Courses</button>
+          <button  onClick={handleSignupClick}  className="p-2 text-white rounded hover:bg-blue-400">Courses</button>
           {isLoggedIn ? (
             <>
               {role === 'INSTRUCTOR' && (
